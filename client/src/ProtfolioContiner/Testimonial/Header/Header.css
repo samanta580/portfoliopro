@@ -1,0 +1,34 @@
+.header-container{
+    /* height: 17.8%; */
+
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  background-color: var(--white);
+}
+.header-parent{
+    width: 100%;
+    height: 100%;
+   
+    /* max-width: 1920px; */
+}
+img{
+    width: 100%;
+height: 100%;
+
+
+}
+
+@media only screen and (max-wdith:1110px){
+.header-parent{
+    display: flex;
+    align-items: flex-end;
+} }
+@media only screen and (max-width:970px){
+ img{
+    height: 50%;
+    border: none;
+ }
+}
+

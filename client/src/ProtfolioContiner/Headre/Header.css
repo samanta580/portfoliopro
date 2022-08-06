@@ -1,0 +1,103 @@
+.header-container{
+    display: flex;
+    float: left;
+    justify-content: center;
+    height: 140px;
+    color: var(--white);
+    
+}
+.header-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    height: 100%;
+    width: 70%;
+    color: var(--white);
+}
+.header-logo{
+    font-size: 50px;
+    font-family: "BELL";
+    color: var(--white);
+     margin:0 250px 0 250px; 
+    /* margin-right: 250px; */
+}
+.header-options{
+  display: flex;
+  align-items: center;
+
+
+}
+.header-option{
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.header-hamburger{
+    display: none;
+    color: var(--white);
+}
+
+.header-option-seprator{
+    margin:0 50px 0 0;
+    color: var(--white);
+
+}
+
+.selected-header-option{
+    color: #ff5823;
+}
+ 
+@media only screen and (max-width:1110px){
+.header-parent{
+    width: 80%;
+}
+}
+ 
+@media only screen and (max-width:970px){
+    .header-hamburger{
+        display: block; 
+        
+    }
+    .header-logo{
+        margin: 0;
+    }
+    .header-parent{
+        width: 100%;
+        padding: 0 40px;
+        position :relative;
+    }
+    .header-options{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -100%;
+        top: 0px;
+        height: 100vh;
+        justify-content: space-around;
+        background-color: #1f2235;
+        z-index: 1000;
+        opacity: 1.8;
+        transition: all 0.8s ease-out; 
+    }
+    .header-option-seprator{
+        margin: 0;
+    }
+    .selected-header-option{
+        color: var(--white);
+
+    }
+    .header-option{
+        color: var(--white);
+    }
+
+    .header-hamburger-bars{
+        font-size: 30px;
+        cursor: pointer;
+        margin: 0px 10px;
+        color: var(--white);
+    }
+    .show-hamburger-option{
+       left: 0;
+       opacity: 1; 
+    }
+}

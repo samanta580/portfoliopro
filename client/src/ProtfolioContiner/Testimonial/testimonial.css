@@ -1,0 +1,121 @@
+.container0{
+    background-color: var(--white);
+   
+}
+
+.client-info img{
+border-radius: 50%;
+/* height: 30%; */
+width: 30%;
+height: 100%;
+/* border: 2px solid transparent; */
+/* border-color: #5f6068; */
+left: 0;
+top: 0;
+position: absolute;
+box-shadow: 0 10px 10px -5px
+}
+.client-info h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 0 2px;
+}
+.client-inf p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    
+}
+ .client-info{
+    position: relative;
+padding-left: 110px;
+padding-top: 5px;
+min-height: 100px;
+/* align-items: center;
+text-align: center;
+justify-content: center; */
+ }
+
+.testi-item{
+background-color: var(--white);
+padding: 30px;
+margin-bottom: 20px;
+border-radius: 50px 50px 50px 0;
+opacity: 1;
+}
+
+
+
+.testi-item p{
+    font: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-style: italic;
+}
+.testi-item p .fa-quote-left{
+margin-right:5px ;
+color: tomato;
+}
+.testi-item p .fa-quote-right{
+margin-left:5px ;
+color: tomato;
+}
+
+
+.testi-comment .fa-star{
+margin: 0 0 5px;
+}
+ul{
+    margin: 0 0px 0 -35px;
+}
+ li{
+    display: inline-block;
+    margin: 0 1px;
+    }
+  li i{
+    font-size: 13px;
+    color: tomato;
+  }  
+.testimonial-section{
+    padding: 80px 0 80px 0;
+    background-image: url("../../../public/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.testimonial-section::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: #1f2235;
+    z-index: -1;
+}
+
+
+.footer-image{
+    width: 100%;
+    height: 120%;
+    max-width: 1920px;
+    overflow: hidden;
+    justify-content: center;
+    margin-bottom:-80px;
+    display: flex;
+    z-index: 10;
+}
+.footer-image img{
+    max-width: 100%;
+    height:200px;
+}
+
